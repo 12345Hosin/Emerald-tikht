@@ -63,7 +63,7 @@ if (message.content.toLowerCase().startsWith(prefix + `new`)) {
         message.channel.send(`:** تم عمل تكت حقك **, #${c.name}.`);
         const embed = new Discord.RichEmbed()
         .setColor(0xCF40FA)
-        .addField(`Hey ${message.author.username}!`, `انتضر احد اشخاص من ادارة لكي يفحصك و من فضلك لا تمنشن مشان لا تتصفر.`)
+        .addField(`Hey ${message.author.username}!`, `انتضر احد اشخاص من ادارة .`)
         .setTimestamp();
         c.send({ embed: embed });
     }).catch(console.error);
